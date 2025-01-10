@@ -1,6 +1,6 @@
 <?php
 require '../models/Empresa.php';
-
+ 
 class EmpresaController {
     private $conn;
 
