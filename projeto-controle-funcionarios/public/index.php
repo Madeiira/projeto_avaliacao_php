@@ -1,4 +1,5 @@
 <?php
+// Página de Login
 session_start();
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     require '../src/controllers/AuthController.php';
